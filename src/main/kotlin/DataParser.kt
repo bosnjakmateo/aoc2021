@@ -9,8 +9,15 @@ object DataParser {
             .split(lineSeparator())
             .map { it.toInt() }
 
-    fun parseStrings(fileName: String) =
-        File(DataParser::class.java.getResource("/inputs/${fileName}")!!.toURI())
+    fun parseStrings(fileName: String, filterOutNewLines: Boolean = false): List<String> {
+        val inputs = File(DataParser::class.java.getResource("/inputs/${fileName}")!!.toURI())
             .readText()
             .split(lineSeparator())
+
+        return if (filterOutNewLines) {
+            inputs.filter { it != "" }
+        } else {
+            inputs
+        }
+    }
 }
