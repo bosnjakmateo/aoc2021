@@ -1,3 +1,5 @@
+## Advent of code 2021 in Kotlin
+
            *             ,
                        _/^\_
                       <     >
@@ -23,3 +25,11 @@
                  .--' ')
                o(  )_-\
                  `"""` `
+
+### Solutions
+
+* [Day 1: Sonar Sweep](/src/main/kotlin/Day01.kt)
+* [Day 2: Dive!](/src/main/kotlin/Day02.kt)
+* [Day 3: Binary Diagnostic](/src/main/kotlin/Day03.kt)
+* [Day 4: Giant Squid](/src/main/kotlin/Day04.kt)
+* [Day 5: Hydrothermal Venture](/src/main/kotlin/Day05.kt)
