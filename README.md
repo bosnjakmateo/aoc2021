@@ -33,3 +33,4 @@
 * [Day 3: Binary Diagnostic](/src/main/kotlin/Day03.kt)
 * [Day 4: Giant Squid](/src/main/kotlin/Day04.kt)
 * [Day 5: Hydrothermal Venture](/src/main/kotlin/Day05.kt)
+* [Day 6: Lanternfish](/src/main/kotlin/Day06.kt)
