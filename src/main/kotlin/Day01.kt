@@ -12,7 +12,7 @@ object Day01 {
 fun main() {
     val measurements = DataParser.parseInts("day01.txt")
 
-    println("Day one solutions")
+    println("Solutions")
     println("Part one: ${calculateIncrease(measurements, 1)}")
     println("Part two: ${calculateIncrease(measurements, 3)}")
 }

@@ -78,7 +78,7 @@ object Day03 {
 fun main() {
     val input = DataParser.parseStrings("day03.txt")
 
-    println("Day three solutions")
+    println("Solutions")
     println("Part one: ${Day03.calculatePowerConsumption(input)}")
     println("Part two: ${Day03.calculateLifeSupportRating(input)}")
 }

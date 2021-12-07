@@ -29,7 +29,7 @@ object Day06 {
 fun main() {
     val input = DataParser.parseInts("day06.txt", separator = ",")
 
-    println("Day three solutions")
+    println("Solutions")
     println("Part one: ${Day06.calculateNumberOfLanternfish(input, 80)}")
     println("Part two: ${Day06.calculateNumberOfLanternfish(input, 256)}")
 }

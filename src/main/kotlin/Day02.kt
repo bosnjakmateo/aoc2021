@@ -52,7 +52,7 @@ object Day02 {
 fun main() {
     val rawCommands = DataParser.parseStrings("day02.txt")
 
-    println("Day two solutions")
+    println("Solutions")
     println("Part one: ${calculateSubmarinePosition(rawCommands)}")
     println("Part two: ${calculateSubmarinePositionWithAngle(rawCommands)}")
 }

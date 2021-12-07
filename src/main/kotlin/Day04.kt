@@ -101,7 +101,7 @@ object Day04 {
 fun main() {
     val input = DataParser.parseStrings("day04.txt", filterOutNewLines = true)
 
-    println("Day three solutions")
+    println("Solutions")
     println("Part one: ${Day04.calculateBingoScoreOfFirstWinner(input)}")
     println("Part two: ${Day04.calculateBingoScoreOfLastWinner(input)}")
 }

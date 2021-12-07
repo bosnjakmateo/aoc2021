@@ -34,3 +34,4 @@
 * [Day 4: Giant Squid](/src/main/kotlin/Day04.kt)
 * [Day 5: Hydrothermal Venture](/src/main/kotlin/Day05.kt)
 * [Day 6: Lanternfish](/src/main/kotlin/Day06.kt)
+* [Day 7: The Treachery of Whales](/src/main/kotlin/Day07.kt)

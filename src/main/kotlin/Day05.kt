@@ -72,7 +72,7 @@ object Day05 {
 fun main() {
     val input = DataParser.parseStrings("day05.txt")
 
-    println("Day three solutions")
+    println("Solutions")
     println("Part one: ${Day05.calculateNumberOfLineOverlapPoints(input)}")
     println("Part two: ${Day05.calculateNumberOfLineOverlapPoints(input, ignoreDiagonalLines = false)}")
 }
