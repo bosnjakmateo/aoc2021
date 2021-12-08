@@ -7,4 +7,9 @@ object Utils {
             this[key] = 1
         }
     }
+
+    inline fun <T> Iterable<T>.one(predicate: (T) -> Boolean): Boolean {
+        if (this is Collection && isEmpty()) return true
+        return !this.all(predicate) && this.any(predicate)
+    }
 }
