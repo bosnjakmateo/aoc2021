@@ -36,3 +36,4 @@
 * [Day 6: Lanternfish](/src/main/kotlin/Day06.kt)
 * [Day 7: The Treachery of Whales](/src/main/kotlin/Day07.kt)
 * [Day 8: Seven Segment Search](/src/main/kotlin/Day08.kt)
+* [Day 9: Smoke Basin](/src/main/kotlin/Day09.kt)
