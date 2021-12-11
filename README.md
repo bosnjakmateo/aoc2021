@@ -38,3 +38,4 @@
 * [Day 8: Seven Segment Search](/src/main/kotlin/Day08.kt)
 * [Day 9: Smoke Basin](/src/main/kotlin/Day09.kt)
 * [Day 10: Syntax Scoring](/src/main/kotlin/Day10.kt)
+* [Day 11: Dumbo Octopus](/src/main/kotlin/Day11.kt)

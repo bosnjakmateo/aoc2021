@@ -8,6 +8,10 @@ object Utils {
         }
     }
 
+    fun permutations(vararg values: Int): List<Pair<Int, Int>> {
+        return values.flatMap { i -> values.map { j-> Pair(i, j) } }
+    }
+
     inline fun <T> Iterable<T>.one(predicate: (T) -> Boolean): Boolean {
         if (this is Collection && isEmpty()) return true
         return !this.all(predicate) && this.any(predicate)
