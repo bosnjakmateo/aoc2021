@@ -13,6 +13,7 @@ object DataParser {
         val inputs = File(DataParser::class.java.getResource("/inputs/${fileName}")!!.toURI())
             .readText()
             .split(lineSeparator())
+            .map { it.trim() }
 
         return if (filterOutNewLines) {
             inputs.filter { it != "" }
