@@ -40,3 +40,4 @@
 * [Day 10: Syntax Scoring](/src/main/kotlin/Day10.kt)
 * [Day 11: Dumbo Octopus](/src/main/kotlin/Day11.kt)
 * [Day 12: Passage Pathing](/src/main/kotlin/Day12.kt)
+* [Day 13: Transparent Origami](/src/main/kotlin/Day13.kt)
