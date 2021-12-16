@@ -1,14 +1,9 @@
+import Math.Point
 import Utils.incrementOrSetToOne
 import kotlin.math.abs
 import kotlin.math.max
 
-data class Point(
-    val x: Int,
-    val y: Int,
-)
-
 object Day05 {
-
     private val pointRegex = "(\\d+,\\d+)".toRegex()
 
     fun calculateNumberOfLineOverlapPoints(inputs: List<String>, ignoreDiagonalLines: Boolean = true): Int {
