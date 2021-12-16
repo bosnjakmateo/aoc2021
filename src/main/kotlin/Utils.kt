@@ -8,6 +8,14 @@ object Utils {
         }
     }
 
+    fun <T> MutableMap<T, Long>.incrementOrSet(key: T, value: Long) {
+        this[key] = this.getOrDefault(key, 0L) + value
+    }
+
+    fun <T> MutableMap<T, Long>.plus(key: T, amount: Long) {
+        this[key] = this.getOrDefault(key, 0L) + amount
+    }
+
     fun permutations(vararg values: Int): List<Pair<Int, Int>> {
         return values.flatMap { i -> values.map { j -> Pair(i, j) } }
     }
