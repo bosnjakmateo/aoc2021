@@ -1,4 +1,4 @@
-import Utils.plus
+import Extensions.plus
 
 object Day14 {
 

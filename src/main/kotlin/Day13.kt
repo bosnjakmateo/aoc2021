@@ -1,6 +1,6 @@
 import Day13.FoldDirection.X
 import Day13.FoldDirection.Y
-import Utils.print
+import Extensions.print
 
 object Day13 {
 

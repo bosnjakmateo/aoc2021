@@ -21,4 +21,12 @@ object DataParser {
             inputs
         }
     }
+
+    fun parseString(fileName: String): String {
+        return File(DataParser::class.java.getResource("/inputs/${fileName}")!!.toURI())
+            .readText()
+            .split(lineSeparator())
+            .map { it.trim() }
+            .first()
+    }
 }

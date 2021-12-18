@@ -1,5 +1,5 @@
+import Extensions.incrementOrSetToOne
 import Math.Point
-import Utils.incrementOrSetToOne
 import kotlin.math.abs
 import kotlin.math.max
 

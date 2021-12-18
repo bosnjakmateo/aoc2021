@@ -1,32 +1,7 @@
 object Utils {
 
-    fun <T> MutableMap<T, Int>.incrementOrSetToOne(key: T) {
-        if (this.containsKey(key)) {
-            this[key] = this[key]!! + 1
-        } else {
-            this[key] = 1
-        }
-    }
-
-    fun <T> MutableMap<T, Long>.incrementOrSet(key: T, value: Long) {
-        this[key] = this.getOrDefault(key, 0L) + value
-    }
-
-    fun <T> MutableMap<T, Long>.plus(key: T, amount: Long) {
-        this[key] = this.getOrDefault(key, 0L) + amount
-    }
-
     fun permutations(vararg values: Int): List<Pair<Int, Int>> {
         return values.flatMap { i -> values.map { j -> Pair(i, j) } }
-    }
-
-    fun Array<Array<String>>.print() {
-        this.forEach { row ->
-            row.forEach { point ->
-                print(point)
-            }
-            println("")
-        }
     }
 
     fun build2dArray(rowSize: Int, columnSize: Int, value: String): Array<Array<String>> {
