@@ -44,3 +44,4 @@
 * [Day 14: Extended Polymerization](/src/main/kotlin/Day14.kt)
 * [Day 15: Chiton](/src/main/kotlin/Day15.kt)
 * [Day 16: Packet Decoder](/src/main/kotlin/Day16.kt)
+* [Day 17: Trick Shot](/src/main/kotlin/Day17.kt)

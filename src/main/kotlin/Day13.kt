@@ -5,8 +5,8 @@ import Extensions.print
 object Day13 {
 
     data class Point(
-        val x: Int,
-        val y: Int,
+        var x: Int,
+        var y: Int,
     )
 
     data class FoldInstruction(
